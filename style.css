@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 600px;
+}
+
+.food-img{
+    width: 600px;
+    height: 380px;
+}
+
+.food-img.bean-soup{
+    background-image: url(https://images.pexels.com/photos/10468384/pexels-photo-10468384.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food-img.vegan-lasagna{
+    background-image: url(https://images.pexels.com/photos/5864346/pexels-photo-5864346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food-img.lentil-stew{
+    background-image: url(https://images.pexels.com/photos/2960581/pexels-photo-2960581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food-img.bolognese{
+    background-image: url(https://images.pexels.com/photos/10067947/pexels-photo-10067947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 2rem 0 0 0 ;
+    width: 600px;
+    text-align: center;
+    padding:1rem 0;
+    background-color: rgb(116, 196, 169);
+}
