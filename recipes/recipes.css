@@ -1,9 +1,101 @@
-*{
+* {
     box-sizing: border-box;
+    font-family: 'Preahvihear', sans-serif;
 }
 
-body{
+body {
     background-image: url(https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 0 10%;
+}
+
+.food-img {
+    width: 800px;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-img.bean-soup {
+    background-image: url(https://images.pexels.com/photos/10468384/pexels-photo-10468384.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+
+.food-img.vegan-lasagna {
+    background-image: url(https://images.pexels.com/photos/5864346/pexels-photo-5864346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.food-img.lentil-stew {
+    background-image: url(https://images.pexels.com/photos/2960581/pexels-photo-2960581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.food-img.bolognese {
+    background-image: url(https://images.pexels.com/photos/10067947/pexels-photo-10067947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3{
+    max-width: 1000px;
+    text-align: center;
+}
+
+ul li,
+ol li {
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding: 5rem 0 0 0;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home-btn{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
